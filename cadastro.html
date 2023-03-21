@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <label for="inome">Nome</label>
+            <br>
+            <input type="text" id="inome" name="iname">
+            <br>
+            <label for="idatanasc">Data Nascismento</label>
+            <br>
+            <input type="date" id="datnasc" name="idata">
+            <br>
+            <label for="imail">E-mail</label>
+            <br>
+            <input type="email" id="mmail" name="imail">
+            <br>
+            <label for="icmail">Confirme Email</label>
+            <br>
+            <input type="email" name="mcmail" id="icmail">
+            <br>
+            <label for="isexo">Sexo:</label>
+            <select name="ssexo" id="isexo">
+                <option value="M">Masculino</option>
+                <option value="F" selected>Feminino</option>
+            </select>
+            <br>
+            <label>Tipo</label>
+            <input type="radio" name="rtipo" id="itpusurio" value="U">
+            <label for="itpusurio">Usuário</label>
+            <input type="radio" name="rtipo" id="itpadmin" value="A">
+            <label for="itpadmin">Admin</label>
+            <br>
+
+            <label for="ivoce">Fale sobre você</label>
+            <br>
+            <textarea name="txtvoce" id="voce" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
